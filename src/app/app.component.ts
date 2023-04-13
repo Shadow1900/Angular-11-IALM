@@ -6,6 +6,6 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
- marca:string="Toyota";
- modelo:string="Centra";
+ marca:string="volkswagen";
+ modelo:string="Atlantic";
 }
