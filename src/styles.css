@@ -1,3 +1,49 @@
- 
+a {
+  color: blue; /* color del texto del enlace */
+  text-decoration: none; /* quita el subrayado del enlace */
+  padding: 10px; /* añade un espacio alrededor del texto del enlace */
+  border: 1px solid blue; /* añade un borde alrededor del enlace */
+  border-radius: 5px; /* hace que los bordes sean más suaves */
+}
 
+a:hover {
+  background-color: blue; /* cambia el color de fondo cuando se pasa el ratón por encima */
+  color: white; /* cambia el color del texto a blanco cuando se pasa el ratón por encima */
+}
 
+router-outlet {
+  display: block; /* asegura que el router-outlet se muestra como un bloque */
+  margin-top: 20px; /* añade un espacio en la parte superior del router-outlet */
+}
+
+/* Estilos para el encabezado h1 */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Estilos para el primer párrafo */
+p:first-of-type {
+  font-style: italic;
+}
+
+/* Estilos para el segundo párrafo */
+p:nth-of-type(2) {
+  text-transform: uppercase;
+}
+
+/* Estilos para el tercer párrafo */
+p:last-of-type {
+  color: #f00;
+  font-weight: bold;
+}
