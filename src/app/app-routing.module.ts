@@ -1,9 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { CochesComponent } from './coches/coches.component';
 const routes: Routes = [
-  { path: 'mascotas', component: ListarMascotasComponent },
-  { path: '', redirectTo: '/mascotas', pathMatch: 'full' }, // Cuando es la raíz
-  { path: '**', redirectTo: '/mascotas' },
+  { path: 'coches/:marca/:modelo', component: CochesComponent },
 ];
 
 @NgModule({
